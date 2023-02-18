@@ -50,7 +50,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* This is a class selector specifically for the giant main image on the page.  */
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
