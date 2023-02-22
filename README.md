@@ -24,5 +24,6 @@ The site has a navigation bar on the top right that links to three different sec
 
 ## Errors and bugs
 
-There are no bugs that I have found or noticed, however, I do think the CSS code could possibly be consolidated a bit more, but I couldn't do it without breaking the site.
+There are no bugs that I have found or noticed, however, I do think the CSS code could possibly be consolidated a bit more, but I couldn't do it without breaking the site. The large background image was included through CSS and I was not able to include an "alt" attribute, so I used a WAI-ARIA attribute which is something I learned about in my coding game. I hope that it OK! 
+
 
