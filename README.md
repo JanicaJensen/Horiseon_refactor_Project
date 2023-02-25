@@ -25,4 +25,6 @@ The site may be distorted if not viewing in a full window.
 
 There are no bugs that I have found or noticed, however, I do think the CSS code could possibly be consolidated a bit more, but I couldn't do it without breaking the site. The large background image was included through CSS and I was not able to include an "alt" attribute, so I used a WAI-ARIA attribute which is something I learned about in my coding game. I hope that is OK! The "internet" said that was an acceptable way to put a description on a photo that is linked through CSS which, is not something I know how to do and I didn't want to mess with it. 
 
-
+## Images
+![](assets/images/finishedSiteExample1.png)
+![](assets/images/finishedSiteExample2.png)
