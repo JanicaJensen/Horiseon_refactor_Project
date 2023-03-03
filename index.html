@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <header>
-        <div class="header">
+    <header class="header">
+        <!-- <div class="header"> -->
             <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+            <!-- <div> -->
                 <!--Added nav tags here-->
-                <nav>
+                <nav class="header">
                     <ul>
                         <li>
                             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -26,21 +26,21 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+            <!-- </div> -->
 
-        </div>
+        <!--</div>-->
     </header>
     <!-- This is where I included the WAI aria mentioned in the README.-->
     <!--I also changed "hero" class to "background-image" since hero was not descriptive and if using a screen reader, could be misinterpreted.-->
     <div class="background-image" aria-label="Photo of 4 people working together at a desk in an office setting.">
     </div>
 
-    <div class="content">
+    <main class="content">
         <!--I added a main tag here to indicate that the non-nav, non-aside info is found within.-->
-        <main>
-            <div class="section-content">
+        <!--<main>-->
+            <!--<div class="section-content"> -->
                 <!--Added a semantic section tag here for Search Engine Optimization.-->
-                <section>
+                <section class="section-content">
                     <img src="./assets/images/search-engine-optimization.jpg"
                         alt="A desk with assorted writing utensils, cup of cofee,laptop keyboard, and a notebook showing notes regarding SEO such as social media, link building, content, backlink, headings, mobile compatibility. There is a magnifying glass nearby to represent the idea of 'searching'."
                         class="float-left" />
@@ -53,11 +53,11 @@
                         your visibility and find the right customers for your business.
                     </p>
                 </section>
-            </div>
+            <!-- </div> -->
 
-            <div class="section-content">
+            <!-- <div class="section-content"> -->
                 <!--Added a semantic section tag here for Online Reputation Management.-->
-                <section>
+                <section class="section-content">
                     <img src="./assets/images/online-reputation-management.jpg"
                         alt="A photo in which a laptop is the main focus, on the screen, a presentation is displayed reading REPUTATION alongside various charts and graphs. A person's shoulder and hands are visible using the computer, one hand on the keyboard and one using a cellphone."
                         class="float-right" />
@@ -70,11 +70,11 @@
                         you the control over what potential customers see when they search for your business.
                     </p>
                 </section>
-            </div>
+            <!--</div>-->
 
-            <div class="section-content">
+            <!-- <div class="section-content">-->
                 <!--Added a semantic section tag here for Social Media Marketing.-->
-                <section>
+                <section class="section-content">
                     <img src="./assets/images/social-media-marketing.jpg"
                         alt="A bird's eye view of a table (looking from above), 6 people are seated with various office items such as laptops or drinks. Strewn across the table are various graphics meant to represent what the team at the table is working on. The graphics include clouds, phones, cameras as well as words like TWEET, MEDIA, SHARE, LIKE. These graphics are meant to be visual representations of the abstract concepts of their work."
                         class="float-left" />
@@ -91,8 +91,8 @@
         </main>
     </div>
 
-    <div class="benefits">
-        <aside>
+    <!--<div class="benefits">-->
+        <aside class="benefits">
             <!--Added an ASIDE tag above to separate from main content and a section for Lead generation.-->
             <section>
                 <div class="benefit-content">
@@ -109,9 +109,9 @@
 
 
 
-            <div class="benefit-content">
+            <!--<div class="benefit-content">-->
                 <!--Added a section for Brand Awareness of the ASIDE.-->
-                <section>
+                <section class="benefit-content">
                     <h3>Brand Awareness</h3>
                     <img src="./assets/images/brand-awareness.png"
                         alt="A minimalist icon displays the bust of a person, but their head and face are replace with a lightbulb surrounded by radiating lines indicating the radiating and scattering of light." />
@@ -125,9 +125,9 @@
 
 
 
-            <div class="benefit-content">
+            <!--<div class="benefit-content">-->
                 <!--Added a section for Cost management of the ASIDE.-->
-                <section>
+                <section class="benefit-content">
                     <h3>Cost Management</h3>
                     <img src="./assets/images/cost-management.png"
                         alt="A minimalist icon displays a cog wheel behind three money coins." />

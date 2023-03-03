@@ -48,7 +48,7 @@ p {
 }
 
 /* This styles the divs within the header tags */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -57,11 +57,11 @@ p {
 }
 
 /* This is giving the unordered list a style type of none, which displays them in a row. */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
