@@ -7,9 +7,6 @@
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 /* This is giving the body a background-color */
 body {
