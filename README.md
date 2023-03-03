@@ -9,8 +9,7 @@
 ## Setup 
 The only setup required should be that one must click the URL to be taken to the site and that it should be opened within a full-width window, as the navigation bar in the header distorts upon minimization. 
 
-The link for the deployed application is here: https://janicajensen.github.io/weekonechallenge/
-
+The link for the deployed application is here: https://janicajensen.github.io/Horiseon_refactor_Project/
 
 ## Usage
 
